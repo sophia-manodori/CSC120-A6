@@ -24,7 +24,7 @@ public class Building {
     public int getFloors() {
         return this.nFloors;
     }
-
+    
     public String toString() {
         return this.name + " is a " + this.nFloors + "-story building located at " + this.address;
     }
